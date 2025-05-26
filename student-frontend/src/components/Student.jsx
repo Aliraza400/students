@@ -82,7 +82,7 @@ const Student = () => {
     }
   };
 
-  if (studentError) {
+  /* if (studentError) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-red-50 p-4">
         <div className="bg-white border border-red-300 rounded-md p-6 shadow-md text-center max-w-md w-full">
@@ -93,7 +93,7 @@ const Student = () => {
         </div>
       </div>
     );
-  }
+  } */
 
   return (
     <div className="min-h-screen bg-gradient-to-tr from-blue-50 to-white p-4 md:p-8">
